@@ -12,7 +12,7 @@ jobs:
       - shell: bash
         name: Run an Astra Pentest
         env:
-          ASTRA_ACCESS_TOKEN: ${{ K32kbthkfftwFhSJAMnakx2HFAMSuLflN9u3GUnpm-c}}
+          ASTRA_ACCESS_TOKEN: ${{K32kbthkfftwFhSJAMnakx2HFAMSuLflN9u3GUnpm-c}}
           ASTRA_TARGET_SCOPE_URI: https://vulnbank.org
           ASTRA_PROJECT_ID: d4e96a02-d7d3-46c9-af97-4780841d1f40
           ASTRA_AUDIT_MODE: automated
